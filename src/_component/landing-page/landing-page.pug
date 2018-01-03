@@ -1,0 +1,19 @@
+-
+    var myFullName = "Vlasie Dragos"
+    var myJobTitle = "Web Developer"
+    var socialList = [
+        {icon: 'facebook2' ,url: 'h'},
+        {icon: 'twitter' ,url: 'h'},
+        {icon: 'youtube' ,url: 'h'},
+    ]
+#landing-page
+.landing-page
+    .landing-page__wrapper
+        h1.landing-page__name=myFullName
+        //h1.landing-page__name si aici #{myFullname} si aici
+        h2.landing-page__title=myFullName
+        ul.landing-page__social
+            each social in socialList
+                li.landing-page__item
+                    label.landing-page__label(for="")
+                    span(class=`my-cv__icon--${social.icon} `)
