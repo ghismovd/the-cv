@@ -1,0 +1,38 @@
+-
+    var awardHeader = "#awards";
+    
+    var awardList =[ 
+     {
+        title: 'best something',
+        description: 'i ve won the 1st place',
+        location: 'la mama acasa',
+        date: '2013' 
+     },
+     {
+        title: 'best something else',
+        description: 'i ve won the 1st place, again, I am so good',
+        location: 'la tata acasa',
+        date: '2014' 
+     }
+ ];        
+#award
+.award
+    .award__header=awardHeader
+    each award in awardList
+        .award__card
+            .award__icon
+                span.my-cv__icon--trophy
+            .award__title=award.title
+            
+            .award__icon
+                span.my-cv__icon--info
+            .award__title=award.description
+
+            .award__icon
+                span.my-cv__icon--map2
+            .award__title=award.location
+            
+            .award__icon
+                span.my-cv__icon--skype
+            .award__date=award.date
+            

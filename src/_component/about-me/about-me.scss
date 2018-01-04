@@ -8,7 +8,7 @@
 }
 
 .about-me__header {
-    color: white;
+    color: $color-white;
     padding: 1rem 2rem;
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -72,10 +72,10 @@
     width: 80%;
     font-size: 3rem;
     text-decoration: none;
-    border: 0.1rem solid #7ea1a6;
+    border: 0.1rem solid $color-gumbo;
     border-radius: 1rem;
-    background-color: white;
-    color: #7ea1a6;
+    background-color: $color-white;
+    color: $color-gumbo;
     margin: 1rem auto;
     display: flex;
     justify-content: space-around;
