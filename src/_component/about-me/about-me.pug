@@ -4,13 +4,13 @@
     var header = '#about me'
     var imagePath = "asset/image/dragos.jpg"
     var myFullName = "Vlasie Dragos"
-    var myTitle = "Web Developer"
+    var myTitle = "Front-End Developer"
     var slogan = `I make the front-end world a better place every day.`
     var achievement = {
-        title: 'achievement',
+        title: 'Achievement',
         content: `I've built a custom SEO CMS that boosted search results position in Google's first places for tens of clients and their websites without any additional effort and minimum or no training.`
     }
-
+ 
     var coolStuff = {
         title: 'grab cool stuff',
         buttonList: [
@@ -20,12 +20,12 @@
                 label: 'Click to visit the GitHub project source'
             },
             {
-                url: "asset/doc/CONTRACTS ONLY - resume Marian Zburlea - one page.docx",
+                url: "asset/doc/CV-Vlasie Dragos.docx",
                 icon: "file-word",
                 label: `Click to download the "one page" Microsoft Word version`
             }
             ,{
-                url: "asset/doc/CONTRACTS ONLY - resume Marian Zburlea.docx",
+                url: "asset/doc/CV-Vlasie Dragos.docx",
                 icon: "file-word",
                 label: `Click to download the "full experience" Microsoft Word version`
             }
@@ -38,7 +38,7 @@
     .about-me__avatar-wrapper
         img.about-me__avatar(src=imagePath)
     .about-me__full-name=myFullName
-    .about-me__full-title=myTitle
+    .about-me__title=myTitle
     .about-me__slogan=slogan
 
     .about-me__title=achievement.title
@@ -47,6 +47,7 @@
     .about-me__title=coolStuff.title
     .about-me__link-list
         each button in coolStuff.buttonList
-            a(href=button.url)
-                span=button.label
-                span(class=`.my-cv__icon--${button.icon}`)
+            a.about-me__link(href=button.url)
+                span.about-me__link-description=button.label
+                span(class=`my-cv__icon--${button.icon}`)
+
