@@ -2,18 +2,62 @@
     var myFullName = "Vlasie Dragos"
     var myJobTitle = "Web Developer"
     var socialList = [
-        {icon: 'facebook2' ,url: 'h'},
-        {icon: 'twitter' ,url: 'h'},
-        {icon: 'youtube' ,url: 'h'},
+ {
+      "icon": "google-plus2",
+      "url": "https://plus.google.com/+ZburleaMarian"
+    },
+    {
+      "icon": "facebook2",
+      "url": "https://www.facebook.com/marianzburlea"
+    },
+    {
+      "icon": "twitter",
+      "url": "https://twitter.com/marianzburlea"
+    },
+    {
+      "icon": "youtube",
+      "url": "https://www.youtube.com/user/zeusul"
+    },
+    {
+      "icon": "github",
+      "url": "https://github.com/marianzburlea"
+    },
+    {
+      "icon": "stackoverflow",
+      "url": "https://stackoverflow.com/users/2013164/marian-zburlea"
+    },
+    {
+      "icon": "skype",
+      "url": "skype:marianzburlea?call"
+    },
+    {
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/marianzburlea/"
+    },
+    {
+      "icon": "earth",
+      "url": "http://bitbee.uk"
+    }
     ]
 #landing-page
 .landing-page
-    .landing-page__wrapper
-        h1.landing-page__name=myFullName
-        //h1.landing-page__name si aici #{myFullname} si aici
-        h2.landing-page__title=myFullName
-        ul.landing-page__social
-            each social in socialList
-                li.landing-page__item
-                    label.landing-page__label(for="")
-                    span(class=`my-cv__icon--${social.icon} `)
+  .landing-page__wrapper
+    h1.landing-page__name=myFullName
+    h2.landing-page__title=myJobTitle
+    ul.landing-page__social
+      each social, key in socialList
+        li.landing-page__item
+          label.landing-page__label(for=`message-box-id-${key}`)
+            span(class=`my-cv__icon--${social.icon}`)
+    .landing-page__box-body
+      input.landing-page__box-radio(type="radio", name="awesome-radio", checked, id="default-message-radio")
+      .landing-page__box-message Click the above icons to reveal
+      .landing-page__box-header
+        .landing-page__box-info Click to visit
+        label.landing-page__box-close(for="default-message-radio") &times;
+      each social, key in socialList
+        input.landing-page__box-radio(type="radio", name="awesome-radio", id=`message-box-id-${key}`)
+        .landing-page__box-message
+          a.landing-page__box-link(href=social.url, target="_blank")=social.url
+
+
