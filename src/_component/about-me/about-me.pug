@@ -34,20 +34,21 @@
 //- the view comes here
 #about-me
 .about-me
-    .about-me__header=header
-    .about-me__avatar-wrapper
-        img.about-me__avatar(src=imagePath)
-    .about-me__full-name=myFullName
-    .about-me__title=myTitle
-    .about-me__slogan=slogan
+    .about-me__wrapper
+        .about-me__header=header
+        .about-me__avatar-wrapper
+            img.about-me__avatar(src=imagePath)
+        .about-me__full-name=myFullName
+        .about-me__title=myTitle
+        .about-me__slogan=slogan
 
-    .about-me__title=achievement.title
-    .about-me__content=achievement.content
+        .about-me__title=achievement.title
+        .about-me__content=achievement.content
 
-    .about-me__title=coolStuff.title
-    .about-me__link-list
-        each button in coolStuff.buttonList
-            a.about-me__link(href=button.url)
-                span.about-me__link-description=button.label
-                span(class=`my-cv__icon--${button.icon}`)
+        .about-me__title=coolStuff.title
+        .about-me__link-list
+            each button in coolStuff.buttonList
+                a.about-me__link(href=button.url)
+                    span.about-me__link-description=button.label
+                    span(class=`my-cv__icon--${button.icon}`)
 

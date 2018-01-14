@@ -9,7 +9,7 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    background-color: $color-manatee;
+    background-image: radial-gradient(ellipse,#8a8fa2,#415a67);
     transition: 0.25s;
 }
   
@@ -21,8 +21,8 @@
     top: 1rem;
     right: 1rem;
     font-size: 1rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
     text-decoration: none;
     border: 0.1rem solid $color-white;
     // display: none;
@@ -39,7 +39,7 @@
         align-items: center;
         justify-content: center;
         color: $color-white;
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     .landscape__list {

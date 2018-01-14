@@ -3,6 +3,10 @@
     @extend %header;
 }
 
+.what-can-i-do__wrapper{
+    @extend %wrapper;
+}
+
 .what-can-i-do__title {
     color: $color-fiord;
     text-align: center;

@@ -2,6 +2,9 @@
 .experience__input {
     display: none;
 }
+.experience__wrapper{
+    @extend %wrapper;
+}
 
 .experience__input:checked + .experience__title + .experience__details {
     display: inherit;

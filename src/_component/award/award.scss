@@ -3,6 +3,10 @@
     @extend %header;
 }
 
+.award__wrapper{
+    @extend %wrapper;
+}
+
 .award__title {
     font-weight: bold;
 }
