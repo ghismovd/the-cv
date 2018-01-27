@@ -3,46 +3,18 @@
     var header = '#experience'
     var experienceList = [
         {
-            title: 'Unicorn trainer',
-            date: '3544 Sep - present',
-            company: 'Galaxy Headquarters',
+            title: 'Junior Web Developer',
+            date: '2017 - present',
+            company: 'Bitbee UK',
             responsabilityList: [
-                'I had to take care of the bad guys and set them straight',
-                'I was in charge of running all the galaxy meetings and make sure that leaders are welcomed',
-                'I was the best unicorn trainer as I was able to connect with their souls'
-            ]
-        },
-        {
-            title: 'Super Star HTML & CSS',
-            company: 'Super FaceBook',
-            date: '2010 Oct - 2017 Nov',
-            responsabilityList: [
-                `I've made the world of chatting a better one`,
-                `I've been in charge of innovating all the cool innovations`,
-                `I was happy to create the best working mood ever to increase productivity by 500%`,
-                `I've achieved perfect client smile with a score of 100% satisfaction`
-            ]
-        },
-        {
-            title: 'Web developer',
-            company: 'Super CodeTap',
-            date: '2010 Oct - 2017 Nov',
-            responsabilityList: [
-                `Develop new user-facing features`,
-                `Optimise applications for maximum speed and scalability`,
-                `Assure that all user input is validated before submitting to back-end services`,
-                `Collaborate with other team members and stakeholders`
-            ]
-        },
-        {
-            title: 'Web developer1',
-            company: 'Super CodeTap1',
-            date: '2110 Oct - 2117 Nov',
-            responsabilityList: [
-                `Develop new user-facing features`,
-                `Optimise applications for maximum speed and scalability`,
-                `Assure that all user input is validated before submitting to back-end services`,
-                `Collaborate with other team members and stakeholders`
+                'My main responsibility was to build the mobile, tablet and desktop interface for new clients',
+                'On a daily basis, I have been using HTML5, CSS3 and JavaScript (vanilla or jQuery) to skin the interface',
+                'Identify problems and tune up front end',
+                'Identify, fix and improve SEO',
+                'Analyze user needs to determine technical requirements',
+                'Set up Git for version control system ',
+                'Assure that all user input is validated before submitting to back-end services'
+                
             ]
         }
     ];
@@ -52,10 +24,8 @@
     controlled container (div, or whatever)
 #experience
 .experience
-    .experience__wrapper
         .experience__header=header
         input.experience__input(type="radio", name="same-name", id="experience-default")
-        
         each experience, key in experienceList
             input.experience__input(type="radio", name="same-name", id=`experience-id-${key}`)
             label.experience__title(for=`experience-id-${key}`)

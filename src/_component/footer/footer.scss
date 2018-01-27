@@ -1,0 +1,40 @@
+.footer__wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    background-image: radial-gradient(#8a8fa2,#415a67);;
+    margin: 2rem 0 0 0;
+}
+
+.footer__links{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+}
+
+.footer__rights{
+    font-size: 0.6rem;
+}
+.footer__contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    .footer__email{
+        padding: 0 2rem;
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+
+// .footer__wrapper
+//             .footer__rights
+//                 p 2017 Vlasie Dragos - All Rights Reserved.
+//             .footer__contact 
+//                 a(href="#") Let's Talk
+//             .footer__icons
+//                 .footer__icons
+//                 each social in socialList
+//                     a(href=social.url, target="_blank")
+//                         span(class=`my-cv__icon--${social.icon}`)

@@ -2,9 +2,7 @@
 .experience__input {
     display: none;
 }
-.experience__wrapper{
-    @extend %wrapper;
-}
+
 
 .experience__input:checked + .experience__title + .experience__details {
     display: inherit;
@@ -17,16 +15,17 @@
 
 .experience__title {
     text-align: center;
-    background-color: $color-gumbo;
+    background-color:  $color-fiord;
     color: $color-white;
     display: block;
     font-size: 1.8rem;
     padding: 2rem;
+    border-bottom: 2px solid $color-manatee;
     cursor: pointer;
 }
 
 .experience__details {
-    border: 0.2rem solid $color-gumbo;
+    border: 0.2rem solid $color-geraldine;
 }
 
 .experience__top {
@@ -67,10 +66,16 @@
     pointer-events: none;
 }
 
+.experience__input:checked + .experience__title{
+    background-color: $color-terracotta;  
+    border-bottom: none;
+}
+
 .experience__input:checked + .experience__title {
     .my-cv__icon--plus  {
         transform: rotateZ(45deg);
         pointer-events: all;
         cursor: pointer;
     }
+    
 }

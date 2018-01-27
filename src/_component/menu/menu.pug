@@ -7,7 +7,7 @@
         },
         {
         label: 'about me',
-        icon: 'wondering',
+        icon: 'user-tie',
         link: '#about-me'
         },
         {
@@ -32,11 +32,15 @@
         }
     ]
 #menu
-a.menu__go-to(href="#menu")
-  span.my-cv__icon--menu3
-.menu
-    .menu__list
-        each menu in menuList
-            a.menu__link(href=menu.link)
-                span(class=`my-cv__icon--${menu.icon}`)
-                span.menu__label=menu.label
+
+    input.menu__input(type="checkbox", name="other-name", id="menu__slide")
+    label.menu__go-to(for="menu__slide")
+        
+        span.my-cv__icon--menu3
+    .menu
+        .menu__list
+            each menu in menuList
+                a.menu__link(href=menu.link)
+                    span(class=`my-cv__icon--${menu.icon}`)
+                    span.menu__label=menu.label
+

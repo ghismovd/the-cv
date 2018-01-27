@@ -1,24 +1,29 @@
 -
-    var awardHeader = "#awards";
+    var awardHeader = "#Education";
     
     var awardList =[ 
      {
-        title: 'best something',
-        description: 'i ve won the 1st place',
-        location: 'la mama acasa',
-        date: '2013' 
+        title: 'Colegiul National Gheorghe Rosca Codreanu',
+        description: 'Studied Mathematics – Computer Science',
+        location: 'Barlad, Romania',
+        date: 'September 2008 – July 2012' 
      },
      {
-        title: 'best something else',
-        description: 'i ve won the 1st place, again, I am so good',
-        location: 'la tata acasa',
-        date: '2014' 
+        title: 'Alewijnse Training Center Romania',
+        description: 'Certificate on Automation and Electrical Engineering',
+        location: 'Galati, Romania',
+        date: 'November 2015 – November  2016' 
+     },
+     {
+        title: 'Faculty of Naval Arhitecture –  Dunarea de Jos University of Galati,  Romania ',
+        description: 'Studied marine engineering, which is the engineering speciality of design, construction, installation and operation of machinery and propulsion systems for ships and marine structures.',
+        location: 'Galati, Romania',
+        date: 'September 2012 -July 2016' 
      }
  ];        
 #award
 .award
-    .award__wrapper
-        .award__header=awardHeader
+    .award__header=awardHeader
         each award in awardList
             .award__card
                 .award__icon

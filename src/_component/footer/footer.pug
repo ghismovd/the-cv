@@ -1,0 +1,30 @@
+-
+    var header = '#footer';
+        var socialList = [
+    {
+      "icon": "facebook2",
+      "url": "https://www.facebook.com/vlasie.dragos.7"
+    },
+    {
+      "icon": "github",
+      "url": "https://github.com/ghismovd"
+    },
+    {
+      "icon": "skype",
+      "url": "skype:marianzburlea?call"
+    },
+    {
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/dragos-vlasie-17a452131/"
+    }
+    ];
+
+
+#footer
+        .footer__wrapper
+            .footer__contact 
+                a.footer__email(href="mailto:vlasiedragos1@gmail.com", target="_blank") Let's Talk
+                .footer__icons
+                    each social in socialList
+                        a.footer__links(href=social.url, target="_blank")
+                            span(class=`my-cv__icon--${social.icon}`)

@@ -1,23 +1,78 @@
+.menu__input{
+    display: none;
+
+    &:checked + .menu__go-to{
+        left:14rem;
+    }
+        &:checked + .menu__go-to + .menu{
+           transform: translateX(0);
+
+           .menu__go-to{
+               left: 0;
+           } 
+
+            .menu__link{
+                transform: translateX(0);
+
+                &:nth-child(1)
+                {transition-delay: .1s}
+              &:nth-child(2)
+                {transition-delay: .15s}
+              &:nth-child(3)
+                {transition-delay: .2s}
+              &:nth-child(4)
+                {transition-delay: .25s}
+              &:nth-child(5)
+                {transition-delay: .3s}
+              &:nth-child(6)
+                {transition-delay: .35s}
+              &:nth-child(7)
+                {transition-delay: .4s}
+              &:nth-child(9)
+                {transition-delay: .45s} 
+                
+            }
+         }
+}
+
+.menu__go-to{
+    position: fixed;
+    left: 0;
+    padding: 10px;
+    transition: all .2s ease;
+    top: 0;
+    font-size: 4rem;
+    color: red;     
+}
+
 .menu {
-    padding: 2rem;
-    background-color: $color-white;
-    position: relative;
+    position: fixed;
+    padding: 0.8rem;
+    top: 0;
+    left: 0;
+    background: #B52B2B;
+    width: 13rem;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: all .2s ease;
+
 }
 
 .menu__list {
-    border: 0.1rem solid $color-manatee;
-    border-radius: 0.5rem;
+    .menu__link{
+        transform: translateX(-100%);
+        transition: all .3s ease .05s;
+    }
 }
 
 
 .menu__link {
     display: flex;
-    padding: 1rem;
-    font-size: 2.5rem;
-    color: $color-gumbo;
+    padding: 0.7rem 0.1rem;
+    font-size: 1.2rem;
+    color: $color-white;
     text-decoration: none;
-    border-bottom: 0.1rem solid $color-gumbo;
-  
+    
     &:last-child {
         border: 0;
     }
@@ -33,10 +88,8 @@
     background-color: $color-fiord;
     color: $color-white;
     position: fixed;
-    bottom: 0;
-    right: 0;
-    font-size: 3rem;
-    padding: 1rem;
+    font-size: 2rem;
+    padding: 0.8rem;
     border-radius: 0.5rem;
     text-decoration: none;
   }

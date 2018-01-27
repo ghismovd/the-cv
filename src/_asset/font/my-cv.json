@@ -10,8 +10,11 @@
         {
           "ligatures": "home, house",
           "name": "home",
-          "order": 0,
-          "id": 1
+          "order": 25,
+          "id": 1,
+          "prevSize": 32,
+          "code": 59648,
+          "tempChar": ""
         },
         {
           "ligatures": "home2, house2",
@@ -406,8 +409,11 @@
         {
           "ligatures": "phone, telephone",
           "name": "phone",
-          "order": 0,
-          "id": 67
+          "order": 28,
+          "id": 67,
+          "prevSize": 32,
+          "code": 59714,
+          "tempChar": ""
         },
         {
           "ligatures": "phone-hang-up, telephone2",
@@ -424,8 +430,11 @@
         {
           "ligatures": "envelop, mail",
           "name": "envelop",
-          "order": 0,
-          "id": 70
+          "order": 29,
+          "id": 70,
+          "prevSize": 32,
+          "code": 59717,
+          "tempChar": ""
         },
         {
           "ligatures": "pushpin, pin",
@@ -470,7 +479,7 @@
           "id": 77,
           "prevSize": 32,
           "code": 59724,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "history, time",
@@ -721,8 +730,11 @@
         {
           "ligatures": "user-tie, user5",
           "name": "user-tie",
-          "order": 0,
-          "id": 119
+          "order": 26,
+          "id": 119,
+          "prevSize": 32,
+          "code": 59766,
+          "tempChar": ""
         },
         {
           "ligatures": "quotes-left, ldquo",
@@ -917,7 +929,7 @@
           "id": 151,
           "prevSize": 32,
           "code": 59798,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "magic-wand, wizard",
@@ -968,7 +980,7 @@
           "id": 159,
           "prevSize": 32,
           "code": 59806,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "gift, present",
@@ -1067,7 +1079,7 @@
           "id": 175,
           "prevSize": 32,
           "code": 59822,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "airplane, travel",
@@ -1076,7 +1088,7 @@
           "id": 176,
           "prevSize": 32,
           "code": 59823,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "truck, transit",
@@ -1159,8 +1171,11 @@
         {
           "ligatures": "menu, list3",
           "name": "menu",
-          "order": 0,
-          "id": 190
+          "order": 24,
+          "id": 190,
+          "prevSize": 32,
+          "code": 59837,
+          "tempChar": ""
         },
         {
           "ligatures": "menu2, options2",
@@ -1175,7 +1190,7 @@
           "id": 192,
           "prevSize": 32,
           "code": 59839,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "menu4, options4",
@@ -1244,7 +1259,7 @@
           "id": 203,
           "prevSize": 32,
           "code": 59850,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "link, chain",
@@ -1517,7 +1532,7 @@
           "id": 248,
           "prevSize": 32,
           "code": 59895,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "neutral2, emoticon26",
@@ -1634,7 +1649,7 @@
           "id": 267,
           "prevSize": 32,
           "code": 59914,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "minus, subtract",
@@ -1649,7 +1664,7 @@
           "id": 269,
           "prevSize": 32,
           "code": 59916,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "cancel-circle, close",
@@ -2414,7 +2429,7 @@
           "id": 396,
           "prevSize": 32,
           "code": 60043,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "google-plus2, brand6",
@@ -2453,7 +2468,7 @@
           "id": 402,
           "prevSize": 32,
           "code": 60049,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "instagram, brand12",
@@ -2462,7 +2477,7 @@
           "id": 403,
           "prevSize": 32,
           "code": 60050,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "whatsapp",
@@ -2489,7 +2504,7 @@
           "id": 407,
           "prevSize": 32,
           "code": 60054,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -2534,7 +2549,7 @@
           "id": 414,
           "prevSize": 32,
           "code": 60061,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "youtube2, brand22",
@@ -2651,7 +2666,7 @@
           "id": 433,
           "prevSize": 32,
           "code": 60080,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "npm",
@@ -2780,7 +2795,7 @@
           "id": 454,
           "prevSize": 32,
           "code": 60101,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "reddit, brand61",
@@ -2807,7 +2822,7 @@
           "id": 458,
           "prevSize": 32,
           "code": 60105,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "linkedin2, brand65",
@@ -2852,7 +2867,7 @@
           "id": 465,
           "prevSize": 32,
           "code": 60112,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "pinterest",
@@ -2963,7 +2978,7 @@
           "id": 482,
           "prevSize": 32,
           "code": 60129,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "file-excel, file13",
@@ -2990,7 +3005,7 @@
           "id": 486,
           "prevSize": 32,
           "code": 60133,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "css3, w3c3",
@@ -10548,6 +10563,5 @@
     "showCodes": true,
     "gridSize": 16
   },
-  "uid": -1,
-  "time": 1514933182465
+  "uid": -1
 }
