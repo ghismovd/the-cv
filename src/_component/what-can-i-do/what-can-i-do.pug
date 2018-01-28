@@ -10,8 +10,6 @@
                 'SEO',
                 'ECMASCRIPT 6 (ES6/7)',
                 'JavaScript',
-                'UI',
-                'UX',
                 'Boostrap',
                 'Foundation',
                 'Jade',
@@ -22,9 +20,7 @@
                 'API',
                 'Sass',
                 'Bourbon',
-                'Less',
-                'Photoshop',
-                'Illustrator'
+                'Less'
             ]
         },
         {
@@ -33,9 +29,7 @@
                 'PHP',
                 'Git',
                 'MySQL',
-                'SVN',
                 'Linux',
-                'Apache',
                 'REST',
                 'Agile',
                 'NodeJs',
@@ -48,6 +42,9 @@
                 'Windows(all)',
                 'Linux(Ubuntu, RedHad, CentOS)',
                 'Mac',
+                'Photoshop',
+                'Illustrator',
+                'Screaming Frog',
                 'Google Webmaster Tools',
                 'Google AdWords',
                 'Google Analytics',
@@ -60,8 +57,8 @@
 //- the presentation, the view
 #what-can-i-do
 .what-can-i-do
+    .what-can-i-do__header=header
     .what-can-i-do__wrapper
-        .what-can-i-do__header=header
         each whatCanIDo in whatCanIDoList
             .what-can-i-do__title=whatCanIDo.title
             .what-can-i-do__list
