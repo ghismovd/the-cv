@@ -1,14 +1,5 @@
 # Pug starter
-## YouTube video tutorials
-
-To help you out even more I've put together some YouTube tutorials:
-
-* Install nodejs, gulp v4, git and github: https://youtu.be/A-iTEtt6SN8
-* How to make a website for free in 3 easy steps 2017 - CodeTap: https://youtu.be/YBK5ZyXHumE
-* The nightmare is finally over! HTML5 tutorial on how to build a webpage layout 2017 - CodeTap https://youtu.be/DdYC36N9z0E
-* Build HTML5 website pain free tutorial for beginners 2017 - CodeTap https://youtu.be/qCyokdeZ6jI
   
-
 Starter package for pug (former jade) template based projects.
 
 ***Note***: an boolean option **config.render.sourceFileChange** has been added to the *package.json*. The behaviour differs based on the value:
@@ -18,7 +9,6 @@ Starter package for pug (former jade) template based projects.
 ## Prerequisites
 The project requires NodeJS v.4+ and gulp v4+
 
-To install NodeJS visit [nodejs download page](https://nodejs.org/en/download/)
 ### Install gulp v4 globally
 ```bash
 $ npm i -g gulp-cli
