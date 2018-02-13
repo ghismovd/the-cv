@@ -4,8 +4,11 @@ html
     head    
         title=myTitleForGoogleSearch
         meta(name='description', content=myDescriptionForGoogleSearch)
-        link(rel="stylesheet", href='style.css')
-         if config.entry.css.inline
+        link(
+            rel="stylesheet", 
+            href='style.css'
+            )
+        if config.entry.css.inline
             link(rel="stylesheet", href=`${inlinePath}`, inline)
     body
         block awesome-content

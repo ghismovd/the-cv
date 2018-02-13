@@ -3,17 +3,19 @@
     background-image: radial-gradient(
         ellipse, 
         #dd4141, 
-        #e97568
+        $color-terracotta
     );
     padding-bottom: 1rem;
     
 }
 
 .about-me__wrapper{
+    
     @extend %wrapper;
 }
 
 .about-me__header {
+    // $color0-white vine din component config color
     color: $color-white;
     padding: 1rem 2rem;
     font-size: 4rem;
