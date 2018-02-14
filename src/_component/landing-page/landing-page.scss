@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: radial-gradient(#8a8fa2,#415a67);
 }
 
 .landing-page__wrapper{
@@ -39,7 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: radial-gradient(#8a8fa2, #415a67);
+  background-image: radial-gradient(#5185e2, #415a67);
 }
 
 .landing-page__wrapper {
@@ -92,6 +91,7 @@
   padding: 0.8rem;
   margin-top: 0.5rem;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px -8px;
 }
 
 .landing-page__box-header {
@@ -110,6 +110,7 @@
   white-space: nowrap;
   line-height: 1.5rem;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px -8px;
   text-overflow: ellipsis;
 }
 

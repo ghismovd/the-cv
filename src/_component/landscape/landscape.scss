@@ -9,12 +9,13 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    background-image: radial-gradient(ellipse,#8a8fa2,#415a67);
+    background-image: radial-gradient(#5185e2,#415a67);
     transition: 0.25s;
 }
   
 .landscape__button {
     display: block;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px -8px;
     background-color: $color-fiord;
     color: $color-white;
     position: fixed;
